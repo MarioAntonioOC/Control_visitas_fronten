@@ -8,7 +8,8 @@ import { LoginComponent } from './component/login/login.component';
 import { MenuComponent } from './component/menu/menu.component';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatIconModule} from '@angular/material/icon';
-
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -22,7 +23,9 @@ import {MatIconModule} from '@angular/material/icon';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatMenuModule,
-    MatIconModule
+    MatIconModule,
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
